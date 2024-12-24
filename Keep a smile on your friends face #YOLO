@@ -1,0 +1,49 @@
+Sure! Below is the updated code where the message now says *"FREDDY WISHES YOU A MERRY CHRISTMAS"* in capital letters.
+
+Updated Code:
+
+1. *HTML (index.html)*
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREDDY WISHES YOU A MERRY CHRISTMAS!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="christmas-message">FREDDY WISHES YOU A MERRY CHRISTMAS!</h1>
+        <p id="wish-message">Wishing you a joyful holiday season filled with peace, love, and happiness.</p>
+        <button id="surprise-button">Click for a Surprise</button>
+        <div id="surprise-message" class="hidden">
+            <p>🎄🎅 Ho Ho Ho! May your holidays be full of joy! 🎅🎄</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+2. *CSS (styles.css)*
+
+```css
+/* Basic styling for the page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fae1dc;  /* Light pinkish background */
+    color: #2e4057;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
